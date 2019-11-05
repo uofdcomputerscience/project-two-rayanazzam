@@ -13,6 +13,9 @@
 		4632C7542364DAB1000867CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4632C7522364DAB1000867CD /* Main.storyboard */; };
 		4632C7562364DAB2000867CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4632C7552364DAB2000867CD /* Assets.xcassets */; };
 		4632C7592364DAB2000867CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4632C7572364DAB2000867CD /* LaunchScreen.storyboard */; };
+		4D9807352372340D0032B202 /* VCTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9807342372340D0032B202 /* VCTwo.swift */; };
+		4D9807372372352B0032B202 /* VCFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9807362372352B0032B202 /* VCFour.swift */; };
+		4D98073923723BC10032B202 /* VCThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D98073823723BC10032B202 /* VCThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		4632C7552364DAB2000867CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4632C7582364DAB2000867CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4632C75A2364DAB2000867CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9807342372340D0032B202 /* VCTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCTwo.swift; sourceTree = "<group>"; };
+		4D9807362372352B0032B202 /* VCFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCFour.swift; sourceTree = "<group>"; };
+		4D98073823723BC10032B202 /* VCThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				4632C7552364DAB2000867CD /* Assets.xcassets */,
 				4632C7572364DAB2000867CD /* LaunchScreen.storyboard */,
 				4632C75A2364DAB2000867CD /* Info.plist */,
+				4D9807342372340D0032B202 /* VCTwo.swift */,
+				4D9807362372352B0032B202 /* VCFour.swift */,
+				4D98073823723BC10032B202 /* VCThree.swift */,
 			);
 			path = "Project 2";
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4632C7512364DAB1000867CD /* ViewController.swift in Sources */,
+				4D98073923723BC10032B202 /* VCThree.swift in Sources */,
+				4D9807352372340D0032B202 /* VCTwo.swift in Sources */,
+				4D9807372372352B0032B202 /* VCFour.swift in Sources */,
 				4632C74D2364DAB1000867CD /* AppDelegate.swift in Sources */,
 				4632C74F2364DAB1000867CD /* SceneDelegate.swift in Sources */,
 			);
@@ -286,6 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Project 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +316,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Project 2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
